@@ -43,5 +43,24 @@ public class Main {
         for(int i=1;i<=x;i++){
             soma += i;
         }
+
+        //f
+        soma = 0;
+
+        //g
+        int i = 1;
+        while(i <= x){
+            soma += i;
+            i++;
+        }
+
+        //h
+        soma = 0;
+        i =1;
+        //i
+        do{
+            soma += i;
+            i++;
+        }while (i <= x);
     }
 }
