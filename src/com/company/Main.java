@@ -30,7 +30,6 @@ public class Main {
                 break;
             default:
                 flag = false;
-                break;
         }
          */
 
@@ -38,7 +37,7 @@ public class Main {
         //flag = x%2==0 ? true : false;
 
         //d
-
+        flag = x%2==0;
 
         //e
         for (int i = 1; i <= x; i++) {
@@ -72,9 +71,5 @@ public class Main {
             }
             soma += i;
         }
-
-        soma = 15;
-        flag = (x = (int) (soma -= 0.5)) > 10;
-        //x = 14; soma = 14,5; flag = true;
     }
 }
