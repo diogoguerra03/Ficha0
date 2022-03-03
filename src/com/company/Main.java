@@ -6,7 +6,7 @@ public class Main {
 	// write your code here
         //System.out.println("Olá");
         //4.1
-        int x = 6;
+        int x = 5;
         double soma = 0;
         boolean flag = false;
 
@@ -38,5 +38,10 @@ public class Main {
         //flag = x%2==0 ? true : false;
 
         //d
+
+        //e
+        for(int i=1;i<=x;i++){
+            soma += i;
+        }
     }
 }
