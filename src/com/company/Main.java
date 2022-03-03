@@ -39,6 +39,7 @@ public class Main {
 
         //d
 
+
         //e
         for (int i = 1; i <= x; i++) {
             soma += i;
@@ -62,5 +63,18 @@ public class Main {
             soma += i;
             i++;
         } while (i <= x);
+
+        //j
+        soma=0;
+        for (i = 1; i <= x; i++) {
+            if (i == 3) {
+                continue;
+            }
+            soma += i;
+        }
+
+        soma = 15;
+        flag = (x = (int) (soma -= 0.5)) > 10;
+        //x = 14; soma = 14,5; flag = true;
     }
 }
