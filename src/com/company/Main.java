@@ -58,10 +58,12 @@ public class Main {
         soma = 0;
         i = 1;
         //i
-        do {
-            soma += i;
-            i++;
-        } while (i <= x);
+        if(i<=x){
+            do {
+                soma += i;
+                i++;
+            } while (i <= x);
+        }
 
         //j
         soma=0;
