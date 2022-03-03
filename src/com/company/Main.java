@@ -3,7 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         //System.out.println("Olá");
         //4.1
         int x = 5;
@@ -40,7 +40,7 @@ public class Main {
         //d
 
         //e
-        for(int i=1;i<=x;i++){
+        for (int i = 1; i <= x; i++) {
             soma += i;
         }
 
@@ -49,18 +49,18 @@ public class Main {
 
         //g
         int i = 1;
-        while(i <= x){
+        while (i <= x) {
             soma += i;
             i++;
         }
 
         //h
         soma = 0;
-        i =1;
+        i = 1;
         //i
-        do{
+        do {
             soma += i;
             i++;
-        }while (i <= x);
+        } while (i <= x);
     }
 }
